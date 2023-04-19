@@ -5,26 +5,21 @@
       class="absolute w-60 lg:w-96 left-0 bottom-0"
       src="/assets/images/illustrations/left-login.svg"
       alt="login-left"
-      srcset=""
     />
     <img
       loading="lazy"
       class="absolute w-60 lg:w-96 right-0 bottom-0"
       src="/assets/images/illustrations/right-login.svg"
       alt="login-right"
-      srcset=""
     />
   </div>
-  <div class="relative lg:w-3/12 sm:w-50 m-auto">
-    <header class="pt-6 pb-8 flex justify-center">
-      <img
-        class="w-52"
-        src="/assets/images/logos/trello-logo.svg"
-        alt="logo"
-        srcset=""
-      />
+  <div class="relative w-full sm:w-7/12 md:w-6/12 lg:w-4/12 xl:w-3/12 m-auto">
+    <header class="pt-2 lg:pt-6 pb-2 lg:pb-8 flex justify-center">
+      <img class="w-52" src="/assets/images/logos/trello-logo.svg" alt="logo" />
     </header>
-    <main class="bg-white lg:shadow-md sm:shadow-none rounded px-8 py-6 mb-4">
+    <main
+      class="bg-white lg:shadow-md sm:shadow-none rounded px-8 lg:py-6 lg:mb-4"
+    >
       <h3 class="pt-4 pb-8 text-center font-bold text-gray-600">
         Iniciar sesión en Trello
       </h3>
@@ -54,6 +49,29 @@
           </button>
         </div>
       </form>
+      <hr class="my-4 border-b-1 border-b-gray-400" />
+      <div
+        class="flex justify-center items-center flex-wrap space-x-0 space-y-2 md:space-x-2 md:space-y-0"
+      >
+        <a routerLink="/forgot-password" class="text-sky-500 font-light">
+          ¿No puede iniciar sesión?
+        </a>
+        <span class="text-gray-500 hidden md:block"> · </span>
+        <a routerLink="/register" class="text-sky-500 font-light">
+          Regístrese para crear una cuenta
+        </a>
+      </div>
     </main>
+    <hr class="mt-10 border-b-1 border-r-gray-400" />
   </div>
+  <footer class="absolute bottom-0 w-full">
+    <div class="flex justify-center mb-10">
+      <img src="/assets/images/logos/atlassian.svg" alt="logo" class="w-60" />
+    </div>
+    <div class="flex justify-center items-center mb-1">
+      <p class="text-gray-500 text-xs">
+        © 2021 TrelloClone. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
 </div>
