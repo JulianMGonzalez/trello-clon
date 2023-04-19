@@ -1,0 +1,59 @@
+<div class="w-screen h-screen bg-white sm:bg-slate-50 relative">
+  <div class="absolute w-full h-full hidden sm:block">
+    <img
+      loading="lazy"
+      class="absolute w-60 lg:w-96 left-0 bottom-0"
+      src="/assets/images/illustrations/left-login.svg"
+      alt="login-left"
+      srcset=""
+    />
+    <img
+      loading="lazy"
+      class="absolute w-60 lg:w-96 right-0 bottom-0"
+      src="/assets/images/illustrations/right-login.svg"
+      alt="login-right"
+      srcset=""
+    />
+  </div>
+  <div class="relative lg:w-3/12 sm:w-50 m-auto">
+    <header class="pt-6 pb-8 flex justify-center">
+      <img
+        class="w-52"
+        src="/assets/images/logos/trello-logo.svg"
+        alt="logo"
+        srcset=""
+      />
+    </header>
+    <main class="bg-white lg:shadow-md sm:shadow-none rounded px-8 py-6 mb-4">
+      <h3 class="pt-4 pb-8 text-center font-bold text-gray-600">
+        Iniciar sesión en Trello
+      </h3>
+      <form novalidate class="space-y-4">
+        <div class="relative">
+          <input
+            class="shadow appearance-none border border-gray-100 rounded w-full py-2 px-3 text-gray-500 leading-tight focus:outline-sky-500 focus:shadow-outline focus:border-0"
+            id="email"
+            type="email"
+            placeholder="Introduzca el correo electronico"
+          />
+        </div>
+        <div class="relative">
+          <input
+            class="shadow appearance-none border border-gray-100 bg-gray-50 rounded w-full py-2 px-3 text-gray-500 leading-tight focus:outline-sky-500 focus:shadow-outline"
+            id="password"
+            type="password"
+            placeholder="Introduzca la contraseña"
+          />
+        </div>
+        <div>
+          <button
+            class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-full"
+            type="submit"
+          >
+            Continuar
+          </button>
+        </div>
+      </form>
+    </main>
+  </div>
+</div>
